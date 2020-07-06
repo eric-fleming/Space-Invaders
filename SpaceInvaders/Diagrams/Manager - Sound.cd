@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SoundManager">
+    <Position X="1" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedPrint" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="SoundManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAAAAABBAAAAABIIFAAAAACAAAECAA=</HashCode>
+      <FileName>Sound\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="baseInitialize" Hidden="true" />
+      <Method Name="basePrint" Hidden="true" />
+      <Method Name="baseSetReserve" Hidden="true" />
+      <Method Name="derivedPrint" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Field Name="growthRate" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Field Name="mNumActiveNodes" Hidden="true" />
+      <Field Name="mNumReserveNodes" Hidden="true" />
+      <Field Name="mNumTotalNodes" Hidden="true" />
+      <Method Name="privFillReservePool" Hidden="true" />
+      <Method Name="privPrintHeadPointers" Hidden="true" />
+      <Method Name="privPrintList" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAEAAIEAgEAAIASAAAAAAAAAQAAIIBAAABBEAAAACAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHeadActive" />
+      <Field Name="poHeadReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Sound">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetRepeatInterval" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="SetRepeatInterval" Hidden="true" />
+      <Method Name="Sound" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sound.Name">
+        <Members>
+          <Field Name="Fastinvader1" Hidden="true" />
+          <Field Name="Fastinvader2" Hidden="true" />
+          <Field Name="Fastinvader3" Hidden="true" />
+          <Field Name="Fastinvader4" Hidden="true" />
+          <Field Name="NullObject" Hidden="true" />
+          <Field Name="UFO_HighPitch" Hidden="true" />
+          <Field Name="UFO_LowPitch" Hidden="true" />
+          <Field Name="Uninitialized" Hidden="true" />
+        </Members>
+        <TypeIdentifier>
+          <NewMemberFileName>Sound\Sound.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAABAIAAAAAAAAAAAAEQAEAgAAAQAQEJAA=</HashCode>
+      <FileName>Sound\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="AddToEnd" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="DLink" Hidden="true" />
+      <Method Name="PullFromFront" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAABBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

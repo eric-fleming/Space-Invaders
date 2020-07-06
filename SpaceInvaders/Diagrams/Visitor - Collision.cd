@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.CollVisitor">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="VisitAlien" Hidden="true" />
+      <Method Name="VisitAlienGrid" Hidden="true" />
+      <Method Name="VisitBumperGroup" Hidden="true" />
+      <Method Name="VisitBumperLeft" Hidden="true" />
+      <Method Name="VisitBumperRight" Hidden="true" />
+      <Method Name="VisitColumn" Hidden="true" />
+      <Method Name="VisitNullGameObject" Hidden="true" />
+      <Method Name="VisitShieldBrick" Hidden="true" />
+      <Method Name="VisitShieldColumn" Hidden="true" />
+      <Method Name="VisitShieldGrid" Hidden="true" />
+      <Method Name="VisitShieldRoot" Hidden="true" />
+      <Method Name="VisitShip" Hidden="true" />
+      <Method Name="VisitShipRoot" Hidden="true" />
+      <Method Name="VisitWallBottom" Hidden="true" />
+      <Method Name="VisitWallGroup" Hidden="true" />
+      <Method Name="VisitWallLeft" Hidden="true" />
+      <Method Name="VisitWallRight" Hidden="true" />
+      <Method Name="VisitWallTop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gIQRAAAAAAQARAgBDAigAAACDgAAAAAAAiEAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAARAAABAAABIFAAACEIAAAAABoQAAEBAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poCollObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObj">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="CollisionObj" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Bomb">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <Members>
+      <Method Name="Bomb" Hidden="true" />
+      <Method Name="GetBoundingBoxHeight" Hidden="true" />
+      <Method Name="MultiplyScale" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="Reset" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAABAAAAAAABAAABAAAAAAAIAAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombRoot">
+    <Position X="5" Y="6" Width="1.5" />
+    <Members>
+      <Method Name="~BombRoot" Hidden="true" />
+      <Method Name="BombRoot" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\BombRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Missile">
+    <Position X="3" Y="7" Width="1.5" />
+    <Members>
+      <Method Name="Missile" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetDelta" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAABAAABEAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Missiles\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileGroup">
+    <Position X="7" Y="6" Width="1.5" />
+    <Members>
+      <Method Name="MissileGroup" Hidden="true" />
+      <Method Name="MoveOffScreen" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>GameObject\Missiles\MissileGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAkAAAAAAIAAIkBAAABEAAAAAAAAAAAAAQAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObjBase" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAABAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObjBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombCategory" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\BombCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAQCAAADAAAAAAAAAACAAAAIAAEAAQ=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileCategory" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>GameObject\Missiles\MissileCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

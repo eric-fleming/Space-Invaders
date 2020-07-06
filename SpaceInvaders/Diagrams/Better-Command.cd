@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.TimerManager_MLink">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerManager">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedPrint" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Field Name="pInstance" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="TimerManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABYAAAQAAAAAAAAAAAABBAAAAAAIIFIAAAACAAAECEA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent_Link">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent">
+    <Position X="3" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetTriggerTime" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetDeltaTime" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="TimeEvent" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimeEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimeEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAgAAAAAAAAAGQAAQAAAAQABEBEA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Command">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveGrid">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="MoveGrid" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Movement\MoveGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DropGrid">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Execute" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Movement\DropGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.MoveGridOffWall">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="MoveGridOffWall" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Movement\MoveGridOffWall.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.AlienGrid">
+    <Position X="6.5" Y="5.25" Width="2" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="AlienGrid" Hidden="true" />
+      <Field Name="bCanDropBombs" Hidden="true" />
+      <Method Name="DropBomb" Hidden="true" />
+      <Method Name="GetCanDropBombs" Hidden="true" />
+      <Method Name="GetDelta" Hidden="true" />
+      <Method Name="GetIsOnWall" Hidden="true" />
+      <Method Name="GetMovementTimeInterval" Hidden="true" />
+      <Method Name="GetX" Hidden="true" />
+      <Method Name="GetY" Hidden="true" />
+      <Method Name="IncreaseMovementSpeed" Hidden="true" />
+      <Field Name="pBombProb" Hidden="true" />
+      <Method Name="SetCanDropBombs" Hidden="true" />
+      <Method Name="SetDelta" Hidden="true" />
+      <Method Name="SetIsOnWall" Hidden="true" />
+      <Method Name="SetMovementTimeInterval" Hidden="true" />
+      <Method Name="SetPosition" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+      <Method Name="VisitWallGroup" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IIQAAAIQAAAQAIIAAICCBEgAAAAQAiAAYgAgAEAICBA=</HashCode>
+      <FileName>GameObject\Aliens\AlienGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

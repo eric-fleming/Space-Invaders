@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameSpriteManager">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="derivedCompare" Hidden="true" />
+      <Method Name="derivedCreateNode" Hidden="true" />
+      <Method Name="derivedPrint" Hidden="true" />
+      <Method Name="derivedWash" Hidden="true" />
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAAAAABBAAAAABIIFAAAAACAAAECAA=</HashCode>
+      <FileName>Sprite\GameSpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

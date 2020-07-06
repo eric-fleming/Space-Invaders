@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Command">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Field Name="deltaTime" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Field Name="triggerTime" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimeEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimeEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAgAAAAAAAAAGQAAAAAAAQABEBEA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DropGrid">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <AssociationLine Name="pAlienGrid" Type="SpaceInvaders.AlienGrid" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="3.925" />
+        <Point X="4.5" Y="4.188" />
+        <Point X="2.25" Y="4.188" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\DropGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.MoveGrid">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\MoveGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.MoveGridOffWall">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\MoveGridOffWall.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pAlienGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.AlienGrid">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="AlienGrid" Hidden="true" />
+      <Method Name="DropBomb" Hidden="true" />
+      <Method Name="GetCanDropBombs" Hidden="true" />
+      <Method Name="GetDelta" Hidden="true" />
+      <Method Name="GetIsOnWall" Hidden="true" />
+      <Method Name="GetMovementTimeInterval" Hidden="true" />
+      <Method Name="GetX" Hidden="true" />
+      <Method Name="GetY" Hidden="true" />
+      <Method Name="SetCanDropBombs" Hidden="true" />
+      <Method Name="SetDelta" Hidden="true" />
+      <Method Name="SetIsOnWall" Hidden="true" />
+      <Method Name="SetMovementTimeInterval" Hidden="true" />
+      <Method Name="SetPosition" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="VisitMissileGroup" Hidden="true" />
+      <Method Name="VisitWallGroup" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IIQAAAIAAAAAAIIAAICCBEgAAAAQAiAAYgAgAEAICBA=</HashCode>
+      <FileName>GameObject\Aliens\AlienGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

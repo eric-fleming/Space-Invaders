@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Destroy" Hidden="true" />
+      <Method Name="ImageManager" Hidden="true" />
+      <Field Name="pInstance" Hidden="true" />
+      <Field Name="poNodeCompare" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAAAAABBAAAAABIIFAAAAACAAAECAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Image.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAAAAAAIAEAAAAEQAAAAAAAQAAEBAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="AddToEnd" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="DLink" Hidden="true" />
+      <Method Name="PullFromFront" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAABBEAg=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="baseGetActive" Hidden="true" />
+      <Method Name="baseInitialize" Hidden="true" />
+      <Method Name="baseSetReserve" Hidden="true" />
+      <Field Name="growthRate" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Field Name="mNumActiveNodes" Hidden="true" />
+      <Field Name="mNumReserveNodes" Hidden="true" />
+      <Field Name="mNumTotalNodes" Hidden="true" />
+      <Method Name="privFillReservePool" Hidden="true" />
+      <Method Name="privPrintHeadPointers" Hidden="true" />
+      <Method Name="privPrintList" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAEAAIEAgEAAIASAAAAAAAAAQAAIIBAAABBEAAAACAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHeadActive" />
+      <Field Name="poHeadReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
